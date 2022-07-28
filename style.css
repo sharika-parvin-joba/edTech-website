@@ -20,6 +20,7 @@
 }
 
 
+
 @media only screen and (max-width:576px){
 
     .company{
@@ -62,16 +63,18 @@
      
 }
 
+
+
 @media only screen and (max-width:1400px) and (min-width:767px){
 
-    /* .company{
+    .company{
         visibility: hidden;
        
 
      
    
      
-} */
+}
 .images{
     height: 100%;
    }
