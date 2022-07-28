@@ -1,5 +1,82 @@
 .images{
 
-    background-color: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    filter: brightness(30%);
+   
+    
+}
+
+
+
+.items{
+
+    height: 650px;
+
+}
+
+
+
+.company{
+    visibility: visible;
+}
+
+
+@media only screen and (max-width:576px){
+
+    .company{
+        visibility: hidden;
+    }
+
+   
+
+ 
+
+    .images{
+        height: 100%;
+       }
+
+       
+
+
+  
+
+   
+
+    
+    
+
+   
+
+}
+
+@media only screen and (max-width:766px) and (min-width:577px){
+
+    .company{
+        visibility: hidden;
+    }
+
+   .images{
+    height: 100%;
+   }
+
+    
+     
+}
+
+@media only screen and (max-width:1400px) and (min-width:767px){
+
+    .company{
+        visibility: hidden;
+       
+
+     
+   
+     
+}
+.images{
+    height: 100%;
+   }
+
+
+
 
 }
